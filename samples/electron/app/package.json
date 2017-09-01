@@ -1,0 +1,18 @@
+{
+  "name": "media",
+  "version": "1.0.0",
+  "author": {
+    "name": "Rita Zhang",
+    "email": "rita.z.zhang@gmail.com"
+  },
+  "main": "main.js",
+  "description": "A sample electron app for the electron-windows-media module",
+  "dependencies": {
+    "electron-windows-media": "file:../../../../electron-windows-media/"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ritazh/electron-windows-media.git"
+  }
+}

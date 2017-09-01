@@ -1,0 +1,49 @@
+{
+  "name": "electron-windows-media",
+  "version": "1.1.13",
+  "description": "Native Windows media for Electron using NodeRT",
+  "main": "./src/index.js",
+  "scripts": {
+    "lint": "standard \"./src/*.js\" && standard \"./test/*.js\"",
+    "test": "npm run lint && mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ritazh/electron-windows-media.git"
+  },
+  "keywords": [
+    "Windows",
+    "media",
+    "nodert",
+    "winrt",
+    "face detection"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ritazh/electron-windows-media/issues"
+  },
+  "homepage": "https://github.com/ritazh/electron-windows-media#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.0.2",
+    "standard": "^9.0.1"
+  },
+  "dependencies": {
+    "debug": "^2.5.1",
+    "is-electron-renderer": "^2.0.1",
+    "uuid": "^3.0.0",
+    "xml-escape": "^1.1.0"
+  },
+  "optionalDependencies": {
+    "@nodert-win10/windows.applicationmodel": "^0.2.95",
+    "@nodert-win10/windows.foundation": "^0.2.95",
+    "@nodert-win10/windows.media.capture": "^0.2.96",
+    "@nodert-win10/windows.devices.enumeration": "^0.2.96",
+    "@nodert-win10/windows.graphics.imaging": "^0.2.96",
+    "@nodert-win10/windows.media": "^0.2.96",
+    "@nodert-win10/windows.media.core": "^0.2.96",
+    "@nodert-win10/windows.storage": "^0.2.96",
+    "@nodert-win10/windows.storage.streams": "^0.2.96"    
+  }
+}
